@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Web Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header Section -->
+  <header class="bg-blue-900 text-white p-6 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-semibold">Business</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+          <li><a href="#services" class="hover:text-gray-300">Services</a></li>
+          <li><a href="#testimonials" class="hover:text-gray-300">Testimonials</a></li>
+          <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-blue-700 text-white py-20">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">We Take Your Business to the Next Level</h2>
+      <p class="text-xl mb-8">Innovative solutions tailored to your business needs. Let's grow together!</p>
+      <a href="#contact" class="bg-yellow-500 text-black px-6 py-3 rounded-full text-lg hover:bg-yellow-400 transition">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-12">
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-blue-900 mb-4">Consulting</h3>
+          <p class="text-gray-700">Our expert consultants will help you streamline operations and enhance productivity.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-blue-900 mb-4">Marketing</h3>
+          <p class="text-gray-700">We provide data-driven marketing strategies that drive results and grow your brand.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-semibold text-blue-900 mb-4">Web Development</h3>
+          <p class="text-gray-700">Our web development team creates responsive and visually stunning websites for your business.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="bg-gray-100 py-20">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-12">What Our Clients Say</h2>
+      <div class="flex space-x-8 justify-center">
+        <div class="bg-white p-6 rounded-lg shadow-lg max-w-xs">
+          <p class="text-gray-600 mb-4">"This company helped us increase our sales by 30%. Highly recommend!"</p>
+          <p class="font-semibold text-blue-900">John Doe</p>
+          <p class="text-gray-500">CEO, Company XYZ</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg max-w-xs">
+          <p class="text-gray-600 mb-4">"Professional and efficient, they exceeded our expectations on every project."</p>
+          <p class="font-semibold text-blue-900">Jane Smith</p>
+          <p class="text-gray-500">Marketing Director, Company ABC</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg max-w-xs">
+          <p class="text-gray-600 mb-4">"Their solutions are top-notch! Our team is more productive than ever."</p>
+          <p class="font-semibold text-blue-900">Mark Wilson</p>
+          <p class="text-gray-500">Operations Manager, Company DEF</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-blue-900 text-white">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+      <p class="text-xl mb-8">Ready to start your project? Get in touch with our team today!</p>
+      <form class="space-y-6 max-w-lg mx-auto">
+        <input type="text" placeholder="Your Name" class="w-full p-4 rounded-lg shadow-lg border border-gray-300" required>
+        <input type="email" placeholder="Your Email" class="w-full p-4 rounded-lg shadow-lg border border-gray-300" required>
+        <textarea placeholder="Your Message" class="w-full p-4 rounded-lg shadow-lg border border-gray-300" rows="4" required></textarea>
+        <button type="submit" class="bg-yellow-500 text-black px-6 py-3 rounded-full text-lg w-full hover:bg-yellow-400 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+</body>
+</html>
